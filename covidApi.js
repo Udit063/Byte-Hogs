@@ -1,4 +1,5 @@
 const covidApi = {
+    //pappu
     getSummary: async () => {
         return await fetchRequest(covidApiEndPoints.summary())
     },
