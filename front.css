@@ -308,3 +308,47 @@ body {
         font-size: 12px;
     }
 }
+
+
+.prevention-tips {
+    border: 2px solid #008000;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+  
+  .prevention-tips h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #008000;
+    text-align: center;
+  }
+  
+  .prevention-tips ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  .prevention-tips li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .prevention-tips li:before {
+    content: "\2022";
+    color: #008000;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+  }
+  
+  .prevention-tips .source {
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+  }
